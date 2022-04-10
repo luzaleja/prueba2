@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS employee (
   id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
   fullname VARCHAR(100) NOT NULL,
   functions VARCHAR(100) NOT NULL,
-  boss INT  
+  boss_id INT  
 ) ;
 
 --insertando los datos
